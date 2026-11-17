@@ -1,0 +1,16 @@
+[
+  {
+    "id": "acl_finance_allowed",
+    "query": "What was Q3 operating margin?",
+    "role": "finance",
+    "expected_chunk_ids": ["fin-q3-01"],
+    "expect_refusal": false
+  },
+  {
+    "id": "acl_intern_denied",
+    "query": "What was Q3 operating margin?",
+    "role": "intern",
+    "expected_chunk_ids": [],
+    "expect_refusal": true
+  }
+]
